@@ -14,7 +14,6 @@ class Calculator:
             "*": 2,
             "/": 2,
         }
-
     def evaluate(self, expression):
         if not expression or expression.isspace():
             return None
